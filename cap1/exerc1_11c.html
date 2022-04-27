@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Elaborar um programa para uma loja, o qual leia o preço de um produto e informe as opções de pagamento da loja. Calcule e informe o valor para pagamento à vista com 10% de desconto e o valor em 3x.
+        var valorProduto = Number(prompt('Digite o valor do produto: '));
+        alert('O pagamento pode ser à vista com 10% de desconto ou em 3x no cartão: \n' +
+        'Preço R$: ' + valorProduto.toFixed(2) + '\n' +
+        'à vista R$: ' + (valorProduto * 0.9).toFixed(2) + '\n' +
+        'Ou 3x de R$: ' + (valorProduto / 3).toFixed(2)
+        )
+    </script>
+</body>
+</html>
